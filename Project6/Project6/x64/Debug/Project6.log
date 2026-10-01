@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\zakwa\softwareDesign\Project6\Source.cpp(60,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\zakwa\softwareDesign\Project6\Source.cpp(60,30): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\zakwa\softwareDesign\Project6\Source.cpp(65,6): warning C4101: 'a': unreferenced local variable
+  Project6.vcxproj -> C:\Users\zakwa\softwareDesign\Project6\x64\Debug\Project6.exe
