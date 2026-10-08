@@ -7,6 +7,16 @@ using namespace std;
 
 int main()
 {
+
+
+	//ifndef is opposite of ifdef so ifndef DEBUG cout << SNAKE is similar code 
+#ifdef _DEBUG
+	cout << "DUCK" << endl;
+#elif defined(NDEBUG)
+	cout << "SNAKE" << endl;
+#endif
+
+
 	// Declares two strings.  Note that we don't have to specify the size.
 	string x, y;
 
@@ -44,6 +54,8 @@ int main()
 	x.erase();
 
 	cout << "x = " << x << endl;
+
+	
 
 	return 0;
 }
